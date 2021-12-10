@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+body {
+	background-color: #191622;
+	color: #fff;
+	font-family: 'Roboto Mono', monospace;
+	padding: 1.25rem;
+}
+
+a {
+	text-decoration: none;
+	color: #f1f1f1;
+}
+
+footer {
+	font-size: 14px;
+	text-align: center;
+	padding-top: 5rem;
+}
+
+.none {border-style: none;}
+
+.borders {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-self: center;
+  text-align: center;
+}
+
+.dotted {
+  border-style: dotted;
+  color: #F1F1F1;
+  padding: 1rem;
+  border-color: #8257e5;
+}
+
+.dashed {
+  border-style: dashed;
+  color: #F1F1F1;
+  padding: 1rem;
+  border-color: #8257e5;
+}
+
+.solid {
+  border-style: solid;
+  color: #F1F1F1;
+  padding: 1rem;
+  border-color: #8257e5;
+}
+
+.double {
+  border-style: double;
+  color: #F1F1F1;
+  padding: 1rem;
+  border-color: #8257e5;
+}
+
+.groove {
+  border-style: groove;
+  color: #F1F1F1;
+  padding: 1rem;
+  border-color: #8257e5;
+}
+
+.ridge {
+  border-style: ridge;
+  color: #F1F1F1;
+  padding: 1rem;
+  border-color: #8257e5;
+}
+
+.inset {
+  border-style: inset;
+  color: #F1F1F1;
+  padding: 1rem;
+  border-color: #8257e5;
+}
+
+.outset {
+  border-style: outset;
+  color: #F1F1F1;
+  padding: 1rem;
+  border-color: #8257e5;
+}
+
+.mix {
+  border-style: dotted dashed solid double;
+  color: #F1F1F1;
+  padding: 1rem;
+  border-color: #8257e5;
+}
